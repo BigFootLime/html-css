@@ -1,0 +1,19 @@
+.container-transition-headset {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 3vh;
+}
+
+/* Add this to your CSS file */
+.img-headset {
+    width: 100%;
+    transition: transform 1s ease-in-out;
+    /* Smooth transition for zoom effect */
+}
+
+/* This class will be added via JavaScript when the element is in the viewport */
+.zoom-in-view {
+    transform: scale(2);
+    /* Scale up the image */
+}
